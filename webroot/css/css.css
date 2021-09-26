@@ -1,0 +1,245 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #FFF;
+    background:url(/img/bg_texture.gif);
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    color: #EEE;
+}
+
+.header {
+    color: #FFF;
+    background-color: #444;
+    background:url("/img/header_bg5.jpg");
+}
+
+.main {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color: #FCFCFC;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+    padding-top: 20px;
+    color: #EEE;
+    border-top: 1px #bb0000 solid;
+}
+
+.footer a {
+    color: #EEE;
+}
+
+.img-drop {
+    border: 1px solid #FFF;
+    box-shadow: 1px 1px 1px #222;
+}
+
+.red {
+    background-color: #cc0000;
+}
+
+.whitetext {
+    color: #FFF;
+}
+
+.sociallinks img {
+    width: 32px;
+}
+
+.breadcrumb {
+    background-color: #E8E8E8;
+    margin-bottom: 0px;
+    padding: 4px;
+    font-size: 85%;
+}
+
+.breadcrumb, .alert {
+    border-radius: 2px;
+}
+
+.pad10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textred, .textredlink {
+    color: #cc0000;
+}
+
+.textgrey {
+    color: #777;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.greybg {
+    background-color: #F5F5F5;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.whitelink a {
+    color: #FFFFFF;
+}
+
+.redicon i {
+    color: #CC0000;
+}
+
+.map {
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/googlemap_icon.png);
+}
+
+.shopimage {
+    height: auto;
+    width: : auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.px60 {
+    height: 60px;
+    width: 60px;
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.tl { text-align: left }
+.tr { text-align: right }
+.tc { text-align: center }
+
+.shopfooter {
+    height: 120px;
+}
+
+#mapcanvas {
+    height: 300px;
+}
+
+.error-message {
+    color: red;
+}
+
+.error {
+    font-size: 11px;
+    color: red;
+    font-weight: normal;
+}
+
+.website, .website a {
+    font-style: italic;
+    font-size: 13px;
+    color: #222;
+}
+
+.photos {
+    display: inline-block;
+    width: 220px;
+    padding: 10px;
+    vertical-align: top;
+}
+.photos img {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border: 2px #EEE solid;
+}
+.photos a {
+    font-weight: bold;
+}
+
+.redh2 h2 {
+    color: #CC0000;
+}
+
+.redicon i {
+    color: #c12e2a;
+    display: inline;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.h2inline h2 {
+    display: inline;
+}
+
+.whbg {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #DDD;
+}
+
+.bggrey {
+    background-color: #EEE;
+}
+
+.list-group {
+    font-size: 90%;
+}
+
+.wt a {
+    color: #FFF;
+}
+
+.googleplus {
+    color: #c21f25;
+}
+
+.facebook {
+    color: #4460ae;
+}
+
+.yelp {
+    color: #c41200;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+    padding: .2rem .2rem;
+    font-size: .700rem;
+}
+
+@media (max-width: 767px) {
+    body {
+        background: none;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .main {
+        padding-top: 15px;
+        margin: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .footer {
+        padding: 0px;
+    }
+}
